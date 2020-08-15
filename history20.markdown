@@ -1,0 +1,62 @@
+---
+layout: page
+title: History
+permalink: /history/2019-20/
+---
+
+# History
+
+## 2019-20
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Team</th>
+    <th>Pos</th>
+    <th>GP</th>
+    <th>G</th>
+    <th>A</th>
+    <th>P</th>
+    <th>+/-</th>
+    <th>PIM</th>
+    <th>PPg</th>
+    <th>PPa</th>
+    <th>PPp</th>
+    <th>SHg</th>
+    <th>SHa</th>
+    <th>SHp</th>
+    <th>GWG</th>
+    <th>GT</th>
+    <th>FG</th>
+    <th>EN</th>
+    <th>SOG</th>
+    <th>Sh</th>
+    <th>AvR</th>
+  </tr>
+{% for player in site.data.history.season20 %}
+  <tr>
+    <td>{{ player.Name }}</td>
+    <td>{{ player.Team }}</td>
+    <td>{{ player.Pos }}</td>
+    <td>{{ player.GP }}</td>
+    <td>{{ player.G }}</td>
+    <td>{{ player.A }}</td>
+    <td>{{ player.P }}</td>
+    <td>{{ player.PlusMinus }}</td>
+    <td>{{ player.PIM }}</td>
+    <td>{{ player.PPg }}</td>
+    <td>{{ player.PPa }}</td>
+    <td>{{ player.PPp }}</td>
+    <td>{{ player.SHg }}</td>
+    <td>{{ player.SHa }}</td>
+    <td>{{ player.SHp }}</td>
+    <td>{{ player.GWG }}</td>
+    <td>{{ player.GT }}</td>
+    <td>{{ player.FG }}</td>
+    <td>{{ player.EN }}</td>
+    <td>{{ player.SOG }}</td>
+    <td>{{ player.Sh }}</td>
+    <td>{{ player.AvR }}</td>
+  </tr>
+{% endfor %}
+</table>

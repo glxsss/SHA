@@ -44,6 +44,7 @@ header {
     font-size: 20px;
     text-decoration: none;
     line-height: 1;
+    word-spacing: -0.25em;
     &:visited {
       color: $text;
     }

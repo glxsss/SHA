@@ -29,6 +29,15 @@ header {
     display: flex;
     flex-direction: row;
   }
+  li {
+    font-family: "NHL Montreal";
+    & + li {
+      margin-left: 40px;
+    }
+    &:before {
+      display: none;
+    }
+  }
   a {
     color: $text;
     font-size: 20px;
@@ -41,7 +50,6 @@ header {
 }
 
 .logos {
-  margin-bottom: 20px;
   .page-wrapper {
     display: flex;
     flex-direction: row;

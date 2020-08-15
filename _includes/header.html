@@ -1,10 +1,6 @@
 <header>
   <div class="page-wrapper">
     <a href="/" class="logo">SimHockey Association</a>
-    <nav class="navigation">
-      <ul>
-        <li><a href="/stanley-cup" class="{% if page.url == "/stanley-cup/" %}active{% endif %}">Stanley Cup</a></li>
-      </ul>
-    </nav>
+    {% include navigation.html %}
   </div>
 </header>

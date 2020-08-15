@@ -9,7 +9,7 @@ permalink: /history/2019-20/
 ## 2019-20
 
 <table>
-  <tr>
+  <tr data-sort-method="none">
     <th>Name</th>
     <th>Team</th>
     <th>Pos</th>

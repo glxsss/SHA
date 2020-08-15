@@ -31,7 +31,7 @@ header {
     flex-direction: row;
   }
   li {
-    font-family: "NHL Montreal";
+    font-family: "NHL";
     & + li {
       margin-left: 40px;
     }
@@ -44,7 +44,6 @@ header {
     font-size: 20px;
     text-decoration: none;
     line-height: 1;
-    word-spacing: -0.25em;
     &:visited {
       color: $text;
     }

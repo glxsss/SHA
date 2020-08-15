@@ -12,8 +12,8 @@ github_username:  simhockeyassociation
 stanley_cup_winner: newyorkrangers
 
 # Build settings
-plugins:
-  - jekyll-feed
+# plugins:
+  # - jekyll-feed
 
 sass:
   sass_dir: _sass

@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-position: center 100px;
   background-attachment: fixed;
-  font-family: "NHL Montreal", Impact, sans-serif;
+  font-family: "NHL", Impact, sans-serif;
 }
 
 .page-wrapper {
@@ -88,6 +88,11 @@ p {
   font-family: "Roboto";
   font-size: 16px;
   line-height: 1.4;
+  a {
+    color: $text;
+    font-family: "Roboto";
+    text-decoration: none;
+  }
 }
 
 li {
@@ -102,10 +107,13 @@ li {
   }
 }
 
-a {
+a,
+.back {
   color: $text;
+  font-family: "NHL";
   text-decoration: none;
   position: relative;
+  word-spacing: -0.25em;
   &:after {
     content: "";
     width: 0;
@@ -154,6 +162,9 @@ th {
 td {
   padding: 5px 0;
   word-spacing: -0.2em;
+  span:first-child {
+    color: $active;
+  }
 }
 
  .coming-soon {

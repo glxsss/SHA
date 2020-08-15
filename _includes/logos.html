@@ -1,0 +1,11 @@
+<div class="logos">
+  <div class="page-wrapper">
+    {% for image in site.static_files %}
+      {% if image.path contains "img/logos" %}
+        <div class="small-logo {% if image.path contains site.stanley_cup_winner %}winner{% endif %}">
+          <img src="{{ site.baseurl }}{{ image.path }}" />
+        </div>
+      {% endif %}
+  {% endfor %}
+  </div>
+</div>

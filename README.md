@@ -1,2 +1,2 @@
-# simhockeyassociation.github.io
+# SimHockeyAssociation
 Official repository of the SimHockeyAssociation.com website

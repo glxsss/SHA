@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "NHL";
-  src: url("assets/fonts/NHLMontreal.ttf") format("truetype");
+  src: url("/assets/fonts/NHLMontreal.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,3 +13,4 @@
 @import "variables";
 @import "base";
 @import "header";
+@import "bracket";

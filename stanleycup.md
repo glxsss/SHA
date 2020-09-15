@@ -6,4 +6,4 @@ permalink: /stanley-cup/
 
 # Stanley Cup Winner
 
-<img src="/assets/img/logos/newyorkrangers.png" />
+<img src="/assets/img/logos/carolina.png" />
